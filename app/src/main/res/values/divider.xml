@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider">#80000000</color>
+    <!--<color name="divider_top">@color/light_blue_grey</color>-->
+    <dimen name="divider_size">1dp</dimen>
+    <dimen name="divider_size_x2">2dp</dimen>
+    <dimen name="divider_left_offset">16dp</dimen>
+    <integer name="alpha">88</integer>
+</resources>

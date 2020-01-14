@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:padding="8dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@android:id/icon"
+        android:layout_width="60dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_toRightOf="@android:id/icon"
+        android:layout_toEndOf="@android:id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:ellipsize="end"
+            android:lines="1"
+            tools:text="USER name USER name USER name  USER name USER name USER name"
+            android:id="@android:id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:ellipsize="end"
+            android:lines="1"
+            tools:text="Reputation: 1 000 000 000"
+            android:id="@android:id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ui.view.Badge
+            android:layout_marginTop="2dp"
+            android:id="@+id/badges"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>
